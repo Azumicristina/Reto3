@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 02</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="" class="logo">Azumi'Ecologic</a>
+            <input type="checkbox" name="" id="menu">
+            <label for="menu"><img src="./img/menu.svg" alt="" class="menu-icono"></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="./img/car.svg" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <h1>Azumi'Ecologic</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur voluptatem ea sint earum eius facilis
+                dolores architecto necessitatibus quos est.</p>
+            <div class="botones">
+                <a href="" class="btn-1">Más Informacion</a>
+                <a href="" class="btn-1">Menu</a>
+            </div>
+            <div class="socials-1">
+                <img src="./img/s1.svg" alt="">
+                <img src="./img/s2.svg" alt="">
+                <img src="./img/s3.svg" alt="">
+            </div>
+            <a href="">
+                <img class="arrow" src="./img/arrow.svg" alt="">
+            </a>
+        </div>
+    </header>
+
+    <section class="recetas container">
+        <div class="recetas-1">
+            <h3>Gran Variedad de Productos Ecológicos</h3>
+            <hr>
+        </div>
+        <div class="recetas-2">
+            <h2>6 Productos para la<br> Higiene Personal</h2>
+        </div>
+    </section>
+
+    <section class="platillos container" id="lista">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Discos desmaquillante reutilizables</h3>
+                        <p class="precio">S/. 13.80</p>
+                        <img src="./img/Productos/Producto1.png" alt="">
+                        <p>Este paquete incluye 20 almohadillas reutilizables, un contendor de almacenaje y una bolsa de
+                            lavandería de algodón
+                            orgánico. <span>Las almohadillas son 100% naturales</span></p>
+                        <a href="" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Paquete de cepillos de dientes de bambú</h3>
+                        <p class="precio">S/. 11.50</p>
+                        <img src="./img/Productos/Producto2.png" alt="">
+                        <p>Elaborados de bambú con 2 tipos de cerdas. En este paquete encontrarás, por un lado, cepillos
+                            de
+                            carbón de bambú negro
+                            grisáceo <span>especialmente diseñados para encías sensibles y suaves</span></p>
+                        <a href="" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Gel limpiador Bio</h3>
+                        <p class="precio">S/. 13.80</p>
+                        <img src="./img/Productos/Producto3.png" alt="">
+                        <p>Este producto forma parte de la cosmética natural, ecológica, sostenible y responsable.
+                            <span>Las
+                                almohadillas son 100% naturales <span>Sus fórmulas son veganas, sin ingredientes o
+                                    subproductos de origen animal.</span>
+                        </p>
+                        <a href="" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Desodorante ecológico</h3>
+                        <p class="precio">S/. 21.50</p>
+                        <img src="./img/Productos/Producto4.png" alt="">
+                        <p>Está hecho de una mezcla innovadora de óxido de magnesio y bicarbonato de sodio que
+                            proporciona
+                            un control total del
+                            olor.</span></p>
+                        <a href="" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Champú sólido para el cabello</h3>
+                        <p class="precio">S/. 25.00</p>
+                        <img src="./img/Productos/Producto5.png" alt="">
+                        <p>Este juego viene con 6 barras de champú hechas a mano, de alta calidad y totalmente
+                            naturales,
+                            por lo que brindan a tu
+                            pelo y cuero cabelludo una limpieza suave y efectiva.</p>
+                        <a href="" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Selección de 6 jabones para cara y cuerpo</h3>
+                        <p class="precio">S/.30.00</p>
+                        <img src="./img/Productos/Producto6.png" alt="">
+                        <p>Cada barra de jabón está hecha con ingredientes orgánicos, totalmente naturales, sin
+                            crueldad,
+                            sin sulfatos y sin
+                            parabenos</p>
+                        <a href="" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="recetas container">
+        <div class="recetas-2">
+            <h2>15 Productos <br> Ecológicos</h2>
+        </div>
+        <div class="recetas-1">
+            <h3>Gran Variedad de Productos Ecológicos</h3>
+            <hr>
+        </div>
+    </section>
+
+    <section class="platillos container" id="lista-2">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Frosch Abrillantador de Vajilla</h3>
+                        <p class="precio">S/. 21.90</p>
+                        <img src="./img/Productos/Producto7.png" alt="">
+                        <p>El Abrillantador de Vajilla para Lavaplatos es ideal para obtener brillo ideal en vasos,
+                            platos, copas y cubiertos.</p>
+                        <a href="" class="agregar-carrito btn-2" data-id="7">Agregar al carrito</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Frosch Limpiador Potente para Microondas</h3>
+                        <p class="precio">S/. 16.90</p>
+                        <img src="./img/Productos/Producto8.png" alt="">
+                        <p>Elaborados de bambú con 2 tipos de cerdas. En este paquete encontrarás, por un lado, cepillos
+                            de
+                            carbón de bambú negro
+                            grisáceo <span>especialmente diseñados para encías sensibles y suaves</span></p>
+                        <a href="" class="agregar-carrito btn-2" data-id="8">Agregar al carrito</a>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Frosch Detergente Líquido Ecoamigable</h3>
+                        <p class="precio">S/. 39.90</p>
+                        <img src="./img/Productos/Producto9.png" alt="">
+                        <p>El Detergente Líquido Ecoamigable permite una limpieza efectiva para todo tipo de textiles.
+                            Con una fórmula poderosa con
+                            manzana para una brillante y adecuada limpieza.</p>
+                        <a href="" class="agregar-carrito btn-2" data-id="9">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="platillo">
+                        <h3>Frosch Limpiador de Vidrios</h3>
+                        <p class="precio">S/. 16.90</p>
+                        <img src="./img/Productos/Producto10.png" alt="">
+                        <p>El Limpiador de Vidrios Ecoamigable es apto para todo tipo de superficies de vidrio o lisas.
+                        </p>
+                        <a href="" class="agregar-carrito btn-2" data-id="10">Agregar al carrito</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!--CONTACTO-->
+    <section class="recetas recetas-4 container">
+        <div class="recetas-2">
+            <h2>Contactanos</h2>
+        </div>
+        <div class="recetas-1">
+            <h3>Gran Variedad de Productos Ecológicos</h3>
+            <hr>
+            <form action="" method="">
+                <label for="nombre_apellido">Nombre y Apellido:</label>
+                <input type="text" id="nombre_apellido" name="nombre_apellido" required pattern="[A-Za-z\s]{1,}"
+                    title="Solo se permiten letras y espacios">
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="dni">Número de DNI:</label>
+                <input type="text" id="dni" name="dni" required pattern="[0-9]{8}"
+                    title="Debe contener 8 dígitos numéricos">
+
+                <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+                <label for="codigo_postal">Codigo postal:</label>
+                <input type="text" id="codigo_postal" name="codigo_postal" required pattern="[0-9]{5}"
+                    title="Debe contener 5 dígitos numéricos">
+
+                <label for="comentario">Comentario (máx. 100 caracteres):</label>
+                <textarea id="comentario" name="comentario" maxlength="100"></textarea>
+
+                <input class="btn-4" type="submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <div class="links">
+            <div class="link">
+                <h3>Redes</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat a maxime magni enim deserunt
+                    adipisci eum veritatis dignissimos numquam maiores.
+                </p>
+                <div class="socials-2">
+                    <img src="./img/s1.svg" alt="">
+                    <img src="./img/s2.svg" alt="">
+                    <img src="./img/s3.svg" alt="">
+                </div>
+            </div>
+            <div class="link">
+                <h3>Azumi'Ecologic</h3>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
